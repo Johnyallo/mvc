@@ -1,5 +1,6 @@
 package ru.netology.exception;
 
+@ResponseStatus(value = HttpStatus.NOT_FOUND)
 public class NotFoundException extends RuntimeException {
   public NotFoundException() {
   }
